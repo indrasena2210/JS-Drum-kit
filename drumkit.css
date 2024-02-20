@@ -1,0 +1,41 @@
+*{
+ padding: 0;
+ margin: 0;
+}
+
+.keys {
+    font-size: 18px;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://w0.peakpx.com/wallpaper/128/672/HD-wallpaper-concert-francisco-black-bw-grey-hall-music-graphy-rave-white.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.key {
+    color: #ffffff;
+    height: 70px;
+    width: 120px;
+    background-color: transparent;
+    border:3px solid black;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.07s;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-bottom: rgb(155, 155, 43);
+    box-shadow: 0px 0px 10px rgb(238, 241, 5);
+}
+
+.sound {
+    color:  rgb(238, 241, 5);
+}
